@@ -23,7 +23,7 @@ html{scroll-behavior:smooth}
 body{font-family:'Outfit',sans-serif;background:var(--g50);color:var(--tx);min-height:100vh;-webkit-font-smoothing:antialiased}
 a{text-decoration:none}
 button{font-family:'Outfit',sans-serif}
-
+ 
 /* ── AUTH ── */
 #auth{position:fixed;inset:0;z-index:700;display:flex;align-items:center;justify-content:center;
   background:linear-gradient(135deg,var(--navy),var(--navy2) 60%,var(--navy3));padding:2rem;overflow:hidden;
@@ -48,7 +48,7 @@ button{font-family:'Outfit',sans-serif}
 .ac-go:hover{background:var(--navy2);transform:translateY(-1px)}
 .ac-err{margin-top:10px;font-size:13px;color:var(--red);min-height:18px;text-align:left}
 .ac-hint{margin-top:1.5rem;font-size:12px;color:var(--tx3);background:var(--g50);border-radius:var(--rs);padding:12px 14px;text-align:left;border:1px solid var(--g200);line-height:1.7}
-
+ 
 /* ── HEADER ── */
 .hdr{background:var(--navy);position:sticky;top:0;z-index:200;box-shadow:0 2px 20px rgba(13,31,78,.3)}
 .hdr-in{max-width:1280px;margin:0 auto;padding:0 1.5rem;height:62px;display:flex;align-items:center;justify-content:space-between;gap:1rem}
@@ -66,7 +66,7 @@ button{font-family:'Outfit',sans-serif}
 .lang-btn:hover{background:rgba(255,255,255,.2);color:var(--w)}
 .quit-btn{background:rgba(255,255,255,.08);color:rgba(255,255,255,.65);border:1px solid rgba(255,255,255,.15);border-radius:var(--rs);padding:6px 12px;font-size:12px;cursor:pointer;transition:var(--tr)}
 .quit-btn:hover{background:rgba(255,255,255,.16);color:var(--w)}
-
+ 
 /* ── ADMIN NAV ── */
 .anav{background:var(--navy2);border-bottom:1px solid rgba(255,255,255,.1);display:none}
 .anav.show{display:block}
@@ -75,7 +75,7 @@ button{font-family:'Outfit',sans-serif}
 .anav-tab{padding:11px 18px;font-size:13px;font-weight:500;color:rgba(255,255,255,.6);background:none;border:none;border-bottom:2.5px solid transparent;cursor:pointer;transition:var(--tr);white-space:nowrap;margin-bottom:-1px;display:flex;align-items:center;gap:6px}
 .anav-tab:hover{color:var(--w)}
 .anav-tab.on{color:var(--w);border-bottom-color:var(--blue);font-weight:700}
-
+ 
 /* ── PROF FILTER BAR (admin) ── */
 .pf-bar{background:var(--w);border-bottom:1px solid var(--g200);display:none}
 .pf-bar.show{display:block}
@@ -84,10 +84,10 @@ button{font-family:'Outfit',sans-serif}
 .pf-tab{padding:11px 16px;font-size:13px;font-weight:500;color:var(--tx3);background:none;border:none;border-bottom:2.5px solid transparent;cursor:pointer;transition:var(--tr);white-space:nowrap;margin-bottom:-1px}
 .pf-tab:hover{color:var(--navy)}
 .pf-tab.on{color:var(--navy);border-bottom-color:var(--bdk);font-weight:700}
-
+ 
 /* ── MAIN ── */
 .main{max-width:1280px;margin:0 auto;padding:1.75rem 1.5rem 5rem}
-
+ 
 /* ── HERO ── */
 .hero{background:linear-gradient(135deg,var(--navy),var(--navy2));border-radius:var(--r);padding:1.75rem 2rem;margin-bottom:1.5rem;color:var(--w);display:flex;align-items:center;justify-content:space-between;gap:1.5rem;overflow:hidden;position:relative}
 .hero::after{content:'';position:absolute;right:-30px;top:-30px;width:150px;height:150px;border-radius:50%;border:18px solid rgba(137,207,240,.08);pointer-events:none}
@@ -100,13 +100,13 @@ button{font-family:'Outfit',sans-serif}
 .hero-prof-sub{font-size:11px;color:rgba(255,255,255,.5);margin-top:5px}
 .hero-code{font-size:18px;font-weight:800;color:var(--blue);letter-spacing:-.3px;line-height:1}
 .hero-lbl{font-size:11px;color:rgba(255,255,255,.45);margin-top:3px}
-
+ 
 /* ── BANNERS ── */
 .banner{padding:.85rem 1.25rem;border-radius:var(--rs);margin-bottom:1.25rem;font-size:13px;font-weight:500;line-height:1.5}
 .bn-prev{background:#fdf2f8;color:#9f1239;border:1px dashed #f9a8d4}
 .bn-adm{background:#eff6ff;color:#1e3a8a;border:1px solid #bfdbfe}
 .bn-prf{background:#ecfdf5;color:#065f46;border:1px solid #a7f3d0}
-
+ 
 /* ── TOOLBAR ── */
 .toolbar{display:flex;gap:10px;margin-bottom:1rem;flex-wrap:wrap;align-items:center}
 .sw{flex:1;min-width:220px;position:relative;background:var(--w);border:1.5px solid var(--g200);border-radius:var(--rs);display:flex;align-items:center;transition:var(--tr)}
@@ -117,7 +117,7 @@ button{font-family:'Outfit',sans-serif}
 .sw-x:hover{color:var(--red)}
 .sort-s{padding:10px 14px;border:1.5px solid var(--g200);border-radius:var(--rs);background:var(--w);font-size:13px;font-weight:600;color:var(--tx);cursor:pointer;font-family:'Outfit',sans-serif;outline:none;transition:var(--tr)}
 .sort-s:focus{border-color:var(--bdk)}
-
+ 
 /* ── FILTER PANEL ── */
 .fpanel{background:var(--w);border:1.5px solid var(--g200);border-radius:var(--rs);margin-bottom:1rem;overflow:hidden}
 .fpanel-hdr{padding:.7rem 1rem;display:flex;justify-content:space-between;align-items:center;cursor:pointer;user-select:none;background:var(--g50);border-bottom:1px solid var(--g200);transition:var(--tr)}
@@ -135,11 +135,11 @@ button{font-family:'Outfit',sans-serif}
 .pill.on{background:var(--navy);color:var(--w);border-color:var(--navy)}
 .pc{font-size:10px;background:rgba(0,0,0,.1);color:inherit;padding:1px 6px;border-radius:8px;font-weight:700}
 .pill.on .pc{background:rgba(255,255,255,.25)}
-
+ 
 .res-bar{margin-bottom:1rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
 .res-cnt{font-size:13px;color:var(--tx3)}
 .res-cnt strong{color:var(--navy);font-weight:700}
-
+ 
 /* ── PROF SECTIONS (admin view) ── */
 .prof-sec{margin-bottom:2.5rem}
 .prof-sec-hdr{display:flex;align-items:center;gap:12px;margin-bottom:1rem;padding-bottom:.6rem;border-bottom:3px solid var(--g200)}
@@ -151,14 +151,14 @@ button{font-family:'Outfit',sans-serif}
 .prof-nm{font-size:18px;font-weight:800;color:var(--navy)}
 .prof-nv{font-size:12px;color:var(--tx3);font-weight:600;background:var(--g100);padding:3px 10px;border-radius:10px;margin-left:6px}
 .prof-c{font-size:12px;color:var(--tx3);background:var(--g100);padding:3px 10px;border-radius:10px;font-weight:600;margin-left:auto}
-
+ 
 /* ── GROUP SECTIONS ── */
 .gp-sec{margin-bottom:2rem}
 .gp-hdr{display:flex;align-items:center;gap:10px;margin-bottom:1rem;padding-bottom:.55rem;border-bottom:2px solid var(--g200)}
 .gp-ico{width:32px;height:32px;background:linear-gradient(135deg,var(--prp),#a78bfa);border-radius:10px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;font-weight:800;flex-shrink:0}
 .gp-nm{font-size:15px;font-weight:800;color:var(--navy)}
 .gp-c{font-size:12px;color:var(--tx3);background:var(--g100);padding:2px 10px;border-radius:10px;font-weight:600}
-
+ 
 /* ── RECORDING CARDS ── */
 .rgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem}
 .rcard{background:var(--w);border-radius:var(--r);overflow:hidden;box-shadow:var(--sh);border:1px solid var(--g200);transition:var(--tr);display:flex;flex-direction:column;position:relative}
@@ -201,17 +201,17 @@ button{font-family:'Outfit',sans-serif}
 .rbtns{display:flex;gap:8px;margin-top:.5rem}
 .btn-w{flex:1;padding:9px 14px;background:var(--navy);color:#fff;border:none;border-radius:var(--rs);font-size:13px;font-weight:700;cursor:pointer;text-align:center;display:flex;align-items:center;justify-content:center;gap:6px;transition:var(--tr)}
 .btn-w:hover{background:var(--navy2);transform:translateY(-1px)}
-
+ 
 /* ── EMPTY STATE ── */
 .empty{text-align:center;padding:3rem 1rem;background:var(--w);border-radius:var(--r);border:1px dashed var(--g300)}
 .empty h3{font-size:18px;color:var(--navy);margin-bottom:6px}
 .empty p{font-size:13px;color:var(--tx3)}
-
+ 
 /* ── LOADING ── */
 .ld{text-align:center;padding:3rem 1rem;color:var(--tx3);display:flex;align-items:center;justify-content:center;gap:10px;font-size:14px}
 .sp{width:20px;height:20px;border:2.5px solid var(--g200);border-top-color:var(--bdk);border-radius:50%;animation:sp 1s linear infinite}
 @keyframes sp{to{transform:rotate(360deg)}}
-
+ 
 /* ── MANAGE TABLES ── */
 .manage-hdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:1.25rem;gap:1rem;flex-wrap:wrap}
 .manage-title{font-size:20px;font-weight:800;color:var(--navy);letter-spacing:-.3px}
@@ -233,15 +233,15 @@ button{font-family:'Outfit',sans-serif}
 .mt-hide:hover{background:var(--amb);color:#fff;border-color:var(--amb)}
 .mt-show:hover{background:var(--grn);color:#fff;border-color:var(--grn)}
 .mt-del:hover{background:var(--red);color:#fff;border-color:var(--red)}
-
+ 
 .st-badge{padding:2px 8px;font-size:10px;font-weight:700;border-radius:10px;text-transform:uppercase;letter-spacing:.3px;display:inline-block}
 .st-on{background:#dcfce7;color:#166534}
 .st-off{background:#fee2e2;color:#991b1b}
-
+ 
 /* ── FAB ── */
 .fab{position:fixed;bottom:24px;right:24px;width:56px;height:56px;border-radius:50%;background:var(--navy);color:#fff;border:none;font-size:26px;cursor:pointer;box-shadow:0 4px 20px rgba(13,31,78,.4);display:none;align-items:center;justify-content:center;transition:var(--tr);z-index:100}
 .fab:hover{background:var(--navy2);transform:scale(1.08)}
-
+ 
 /* ── MODAL ── */
 #ov{position:fixed;inset:0;z-index:500;background:rgba(13,31,78,.55);display:none;align-items:center;justify-content:center;padding:1.5rem;animation:fi .25s ease;backdrop-filter:blur(4px)}
 @keyframes fi{from{opacity:0}to{opacity:1}}
@@ -267,12 +267,12 @@ textarea.fctrl{resize:vertical;min-height:70px;font-family:'Outfit',sans-serif}
 .bsub:disabled{opacity:.6;cursor:not-allowed}
 .bdel{padding:9px 18px;background:var(--red);color:#fff;border:none;border-radius:var(--rs);font-size:13px;font-weight:700;cursor:pointer;font-family:'Outfit',sans-serif;transition:var(--tr)}
 .bdel:hover{background:#dc2626}
-
+ 
 .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--grn);color:#fff;padding:12px 22px;border-radius:var(--rs);font-size:13px;font-weight:600;box-shadow:var(--shl);z-index:600;display:none;animation:fu .3s ease}
-
+ 
 .del-confirm{background:#fef2f2;border:1.5px solid #fecaca;border-radius:var(--rs);padding:1rem;margin-bottom:1rem;color:#991b1b;font-size:13px;line-height:1.5;display:none}
 .del-confirm strong{display:block;margin-bottom:6px;color:#7f1d1d}
-
+ 
 /* ── MOBILE ── */
 @media(max-width:640px){
   .hdr-in{padding:0 1rem;height:auto;min-height:62px;flex-wrap:wrap;gap:.5rem;padding-top:10px;padding-bottom:10px}
@@ -290,7 +290,7 @@ textarea.fctrl{resize:vertical;min-height:70px;font-family:'Outfit',sans-serif}
 </style>
 </head>
 <body>
-
+ 
 <!-- ═══════ AUTH ═══════ -->
 <div id="auth">
   <div class="ac">
@@ -310,7 +310,7 @@ textarea.fctrl{resize:vertical;min-height:70px;font-family:'Outfit',sans-serif}
     </div>
   </div>
 </div>
-
+ 
 <!-- ═══════ HEADER ═══════ -->
 <div class="hdr">
   <div class="hdr-in">
@@ -331,7 +331,7 @@ textarea.fctrl{resize:vertical;min-height:70px;font-family:'Outfit',sans-serif}
     </div>
   </div>
 </div>
-
+ 
 <!-- ═══════ ADMIN NAV ═══════ -->
 <div class="anav" id="anav">
   <div class="anav-tabs">
@@ -341,22 +341,22 @@ textarea.fctrl{resize:vertical;min-height:70px;font-family:'Outfit',sans-serif}
     <button class="anav-tab" data-v="preview" onclick="togglePreview()">👁️ <span id="nav-prev">Aperçu étudiant</span></button>
   </div>
 </div>
-
+ 
 <!-- ═══════ PROF FILTER BAR (admin only) ═══════ -->
 <div class="pf-bar" id="pf-bar">
   <div class="pf-tabs" id="pf-tabs">
     <!-- généré dynamiquement -->
   </div>
 </div>
-
+ 
 <!-- ═══════ MAIN ═══════ -->
 <div class="main" id="main">
   <div class="ld"><div class="sp"></div> Chargement...</div>
 </div>
-
+ 
 <!-- ═══════ FAB ═══════ -->
 <button class="fab" id="fab" onclick="openRecModal(null)" title="Ajouter un enregistrement">＋</button>
-
+ 
 <!-- ═══════ MODAL : RECORDING ═══════ -->
 <div id="ov">
   <div class="mod" id="mod-rec" style="display:none">
@@ -418,7 +418,7 @@ textarea.fctrl{resize:vertical;min-height:70px;font-family:'Outfit',sans-serif}
       <button class="bsub" id="bsub-rec" onclick="submitRec()">✓ Publier</button>
     </div>
   </div>
-
+ 
   <!-- ═══════ MODAL : GROUP ═══════ -->
   <div class="mod" id="mod-gp" style="display:none">
     <div class="mod-hdr">
@@ -467,9 +467,9 @@ textarea.fctrl{resize:vertical;min-height:70px;font-family:'Outfit',sans-serif}
     </div>
   </div>
 </div>
-
+ 
 <div class="toast" id="toast"></div>
-
+ 
 <script>
 /* ═══════════════════════════════════════════════════════
    ═══════ CONFIG ═══════
@@ -483,24 +483,24 @@ const CFG={
   // URL du Google Apps Script déployé (Web App)
   SCRIPT_URL:'https://script.google.com/macros/s/AKfycbwKLKfNB_kKZr5sS8giRh8GBR8CgZCXLcp1aIwT2pHG-SIczoL5A7zk-Rj8aBgV2iwM/exec'
 };
-
+ 
 /* ═══════ ENSEIGNANTS — Configuration centrale ═══════ */
 const ENSEIGNANTS={
   'Ghofrane':{niveau:'A1',couleur:'A1'},
   'Amina':   {niveau:'A2',couleur:'A2'},
   'Rima':    {niveau:'B1',couleur:'B1'},
-  'Sideli':  {niveau:'B2',couleur:'B2'},
+  'Mohamed': {niveau:'B2',couleur:'B2'},
 };
-
+ 
 /* ═══════ CODES SYSTÈME (admin + 4 enseignants) ═══════ */
 const SYSTEM_CODES={
   'Admin#ST2026':{role:'admin',prof:'ALL',niveau:'ALL'},
   'ghofrane-prof-6tcs':{role:'prof',prof:'Ghofrane',niveau:'A1'},
   'amina-prof-8xl5':   {role:'prof',prof:'Amina',niveau:'A2'},
   'rima-prof-08uc':    {role:'prof',prof:'Rima',niveau:'B1'},
-  'sideli-prof-xriz':  {role:'prof',prof:'Sideli',niveau:'B2'},
+  'mohamed-prof-bkfk':  {role:'prof',prof:'Mohamed',niveau:'B2'},
 };
-
+ 
 /* ═══════ DEMO DATA (si CFG vide) ═══════ */
 const DEMO_GROUPS=[
   // Ghofrane — A1
@@ -536,19 +536,19 @@ const DEMO_GROUPS=[
   {enseignant:'Rima',niveau:'B1',groupe:'G8',code:'rima-g8-zysh',actif:'oui'},
   {enseignant:'Rima',niveau:'B1',groupe:'G9',code:'rima-g9-vtl0',actif:'oui'},
   {enseignant:'Rima',niveau:'B1',groupe:'G10',code:'rima-g10-vved',actif:'oui'},
-  // Sideli — B2
-  {enseignant:'Sideli',niveau:'B2',groupe:'G1',code:'sideli-g1-2e9a',actif:'oui'},
-  {enseignant:'Sideli',niveau:'B2',groupe:'G2',code:'sideli-g2-ompz',actif:'oui'},
-  {enseignant:'Sideli',niveau:'B2',groupe:'G3',code:'sideli-g3-tvel',actif:'oui'},
-  {enseignant:'Sideli',niveau:'B2',groupe:'G4',code:'sideli-g4-ddym',actif:'oui'},
-  {enseignant:'Sideli',niveau:'B2',groupe:'G5',code:'sideli-g5-lz38',actif:'oui'},
-  {enseignant:'Sideli',niveau:'B2',groupe:'G6',code:'sideli-g6-69d3',actif:'oui'},
-  {enseignant:'Sideli',niveau:'B2',groupe:'G7',code:'sideli-g7-xppd',actif:'oui'},
-  {enseignant:'Sideli',niveau:'B2',groupe:'G8',code:'sideli-g8-522r',actif:'oui'},
-  {enseignant:'Sideli',niveau:'B2',groupe:'G9',code:'sideli-g9-hwmn',actif:'oui'},
-  {enseignant:'Sideli',niveau:'B2',groupe:'G10',code:'sideli-g10-cmtc',actif:'oui'},
+  // Mohamed — B2
+  {enseignant:'Mohamed',niveau:'B2',groupe:'G1',code:'mohamed-g1-vd32',actif:'oui'},
+  {enseignant:'Mohamed',niveau:'B2',groupe:'G2',code:'mohamed-g2-cp5n',actif:'oui'},
+  {enseignant:'Mohamed',niveau:'B2',groupe:'G3',code:'mohamed-g3-rb90',actif:'oui'},
+  {enseignant:'Mohamed',niveau:'B2',groupe:'G4',code:'mohamed-g4-o4st',actif:'oui'},
+  {enseignant:'Mohamed',niveau:'B2',groupe:'G5',code:'mohamed-g5-taji',actif:'oui'},
+  {enseignant:'Mohamed',niveau:'B2',groupe:'G6',code:'mohamed-g6-h251',actif:'oui'},
+  {enseignant:'Mohamed',niveau:'B2',groupe:'G7',code:'mohamed-g7-8y1t',actif:'oui'},
+  {enseignant:'Mohamed',niveau:'B2',groupe:'G8',code:'mohamed-g8-pb9j',actif:'oui'},
+  {enseignant:'Mohamed',niveau:'B2',groupe:'G9',code:'mohamed-g9-1ke6',actif:'oui'},
+  {enseignant:'Mohamed',niveau:'B2',groupe:'G10',code:'mohamed-g10-x8hz',actif:'oui'},
 ];
-
+ 
 const DEMO_RECS=[
   {enseignant:'Ghofrane',niveau:'A1',groupe:'G1',titre:'Les salutations au Québec',date_seance:'2026-04-15',
    lien_video:'https://drive.google.com/file/d/DEMO_FILE_ID_1/view',duree:'60 min',
@@ -566,19 +566,19 @@ const DEMO_RECS=[
    lien_video:'https://drive.google.com/file/d/DEMO_FILE_ID_4/view',duree:'90 min',
    description:'Quand utiliser le subjonctif.',visible:'oui',
    date_ajout:new Date(Date.now()-3*24*3600*1000).toISOString()},
-  {enseignant:'Sideli',niveau:'B2',groupe:'G1',titre:'Argumentation et débat',date_seance:'2026-04-19',
+  {enseignant:'Mohamed',niveau:'B2',groupe:'G1',titre:'Argumentation et débat',date_seance:'2026-04-19',
    lien_video:'https://drive.google.com/file/d/DEMO_FILE_ID_5/view',duree:'90 min',
    description:'Structurer une argumentation, exprimer son opinion.',visible:'oui',
    date_ajout:new Date(Date.now()-4*24*3600*1000).toISOString()},
 ];
-
+ 
 /* ═══════ STATE ═══════ */
 let role=null,profName=null,profNiveau=null,studentGroupe=null,lang='fr',previewMode=false,appView='dashboard';
 let recordings=[],groups=[];
 let profFilter='ALL',groupF='ALL';
 let srchQ='',sortM='date';
 let pendingDeleteRecIdx=-1,pendingDeleteGpIdx=-1;
-
+ 
 /* ═══════ I18N ═══════ */
 const T={
   fr:{
@@ -641,7 +641,7 @@ const T={
   }
 };
 const t=k=>T[lang][k]||T['fr'][k]||k;
-
+ 
 /* ═══════ AUTH ═══════ */
 async function tryCode(){
   const val=document.getElementById('code-inp').value.trim();
@@ -684,7 +684,7 @@ function doLogout(){
   document.getElementById('main').innerHTML='<div class="ld"><div class="sp"></div> Chargement...</div>';
   const ov=document.getElementById('auth');ov.classList.remove('gone','hiding');window.scrollTo(0,0);
 }
-
+ 
 /* ═══════ SETUP ═══════ */
 function setupUI(){
   // Header badges
@@ -731,7 +731,7 @@ function buildProfTabs(){
   });
   cont.innerHTML=html;
 }
-
+ 
 /* ═══════ VIEWS ═══════ */
 function setView(v){
   appView=v;previewMode=false;
@@ -752,7 +752,7 @@ function toggleLang(){
   buildProfTabs();updateTextLabels();render();
 }
 function setProfFilter(p){profFilter=p;groupF='ALL';buildProfTabs();render();}
-
+ 
 /* ═══════ LOAD DATA ═══════ */
 async function loadAll(){
   document.getElementById('main').innerHTML='<div class="ld"><div class="sp"></div> Chargement des enregistrements...</div>';
@@ -799,7 +799,7 @@ function parseCSV(csv,required){
   }
   return out;
 }
-
+ 
 /* ═══════ FILTER ═══════ */
 const uniq=a=>[...new Set(a.filter(Boolean))];
 function getFiltered(){
@@ -834,7 +834,7 @@ function getFiltered(){
   else if(sortM==='za')out.sort((a,b)=>(b.titre||'').localeCompare(a.titre||''));
   return out;
 }
-
+ 
 /* ═══════ RENDER ═══════ */
 function render(){
   const main=document.getElementById('main');
@@ -842,18 +842,18 @@ function render(){
   if(appView==='groups'&&!previewMode){renderGroups();return;}
   renderDashboard(main);
 }
-
+ 
 /* ═══════ DASHBOARD ═══════ */
 function renderDashboard(main){
   const effRole=previewMode?'student':role;
   const shown=getFiltered();
   let html='';
-
+ 
   // Banners
   if(previewMode) html+=`<div class="banner bn-prev">${t('previewBanner')}</div>`;
   else if(role==='admin') html+=`<div class="banner bn-adm">${t('adminBanner')}${!CFG.SHEET_REC_URL?' <strong>'+t('badge_demo')+'</strong>':''}</div>`;
   else if(role==='prof') html+=`<div class="banner bn-prf">${t('profBanner')}</div>`;
-
+ 
   // Hero
   const isStudent=effRole==='student';
   const isProf=effRole==='prof';
@@ -880,7 +880,7 @@ function renderDashboard(main){
     </div>`;
   }
   html+=`</div></div>`;
-
+ 
   // Toolbar
   html+=`<div class="toolbar">
     <div class="sw"><span class="sw-ico">🔍</span>
@@ -894,7 +894,7 @@ function renderDashboard(main){
       <option value="za"${sortM==='za'?' selected':''}>${t('za')}</option>
     </select>
   </div>`;
-
+ 
   // Filter pour admin/prof — par groupe
   if(effRole!=='student'){
     const allVis=recordings.filter(v=>v.visible!=='non');
@@ -922,21 +922,21 @@ function renderDashboard(main){
       html+=`</div>`;
     }
   }
-
+ 
   html+=`<div class="res-bar"><span class="res-cnt"><strong>${shown.length}</strong> ${t('results')}${shown.length!==1?'s':''} ${t('affiché')}${shown.length!==1?'s':''}</span></div>`;
-
+ 
   if(!shown.length){
     const isAdminOrProf=effRole==='admin'||effRole==='prof';
     html+=`<div class="empty"><h3>${isAdminOrProf?t('noResAdm'):t('noRes')}</h3><p>${isAdminOrProf?t('noResAdmSub'):t('noResSub')}</p></div>`;
     main.innerHTML=html;return;
   }
-
+ 
   // Étudiant : liste simple
   if(effRole==='student'){
     html+=`<div class="rgrid">${shown.map(v=>cardHtml(v,recordings.indexOf(v))).join('')}</div>`;
     main.innerHTML=html;return;
   }
-
+ 
   // Prof : grouper par groupe
   if(effRole==='prof'){
     const grouped={};
@@ -952,7 +952,7 @@ function renderDashboard(main){
     });
     main.innerHTML=html;return;
   }
-
+ 
   // Admin : grouper par enseignant > groupe
   if(profFilter==='ALL'){
     // Section par enseignant
@@ -990,10 +990,10 @@ function renderDashboard(main){
       <div class="rgrid">${vids.map(v=>cardHtml(v,recordings.indexOf(v))).join('')}</div></div>`;
     });
   }
-
+ 
   main.innerHTML=html;
 }
-
+ 
 /* ═══════ CARD HTML ═══════ */
 function cardHtml(v,idx){
   const driveId=getDriveId(v.lien_video);
@@ -1030,7 +1030,7 @@ function cardHtml(v,idx){
     </div>
   </div>`;
 }
-
+ 
 /* ═══════ MANAGE RECORDINGS VIEW ═══════ */
 function renderManage(){
   const main=document.getElementById('main');
@@ -1067,7 +1067,7 @@ function renderManage(){
   html+=`</tbody></table></div>`;
   main.innerHTML=html;
 }
-
+ 
 /* ═══════ MANAGE GROUPS VIEW ═══════ */
 function renderGroups(){
   const main=document.getElementById('main');
@@ -1117,7 +1117,7 @@ function renderGroups(){
   });
   main.innerHTML=html;
 }
-
+ 
 /* ═══════ RECORDING ACTIONS ═══════ */
 async function toggleHide(idx){
   if(idx<0||idx>=recordings.length)return;
@@ -1144,7 +1144,7 @@ async function confirmDeleteRec(){
     if(CFG.SCRIPT_URL){try{await fetch(CFG.SCRIPT_URL,{method:'POST',mode:'no-cors',body:JSON.stringify({sheet:'recordings',action:'delete',lien_video:v.lien_video}),headers:{'Content-Type':'application/json'}});}catch{}}
   }
 }
-
+ 
 /* ═══════ GROUP ACTIONS ═══════ */
 function askDeleteGp(idx){
   pendingDeleteGpIdx=idx;
@@ -1164,7 +1164,7 @@ async function confirmDeleteGp(){
     if(CFG.SCRIPT_URL){try{await fetch(CFG.SCRIPT_URL,{method:'POST',mode:'no-cors',body:JSON.stringify({sheet:'groups',action:'delete',code:g.code}),headers:{'Content-Type':'application/json'}});}catch{}}
   }
 }
-
+ 
 /* ═══════ RECORDING MODAL ═══════ */
 function openRecModal(idx){
   document.getElementById('ov').style.display='flex';
@@ -1247,7 +1247,7 @@ async function submitRec(){
   showToast(editIdx>=0?'✓ Enregistrement modifié !':'✓ Enregistrement publié !');
   setTimeout(()=>{closeModal();render();},900);
 }
-
+ 
 /* ═══════ GROUP MODAL ═══════ */
 function openGpModal(idx){
   if(role!=='admin'){alert('⚠ Seul l\'administrateur peut gérer les groupes.');return;}
@@ -1315,7 +1315,7 @@ async function submitGp(){
   showToast(editIdx>=0?'✓ Groupe modifié !':'✓ Groupe créé !');
   setTimeout(()=>{closeModal();render();},900);
 }
-
+ 
 function closeModal(){
   document.getElementById('ov').style.display='none';
   document.body.style.overflow='';
@@ -1326,13 +1326,13 @@ function showToast(msg){
   toast.textContent=msg;toast.style.display='block';
   setTimeout(()=>{toast.style.display='none';},2400);
 }
-
+ 
 /* ═══════ HANDLERS ═══════ */
 function setGpF(v){groupF=v;render();}
 function setSort(v){sortM=v;render();}
 function onSrch(v){srchQ=v;const inp=document.getElementById('srch-inp');const pos=inp?inp.selectionStart:v.length;document.getElementById('srch-x').style.display=v?'flex':'none';render();const ni=document.getElementById('srch-inp');if(ni){ni.focus();try{ni.setSelectionRange(pos,pos);}catch{}}}
 function clrSrch(){srchQ='';const i=document.getElementById('srch-inp');if(i)i.value='';document.getElementById('srch-x').style.display='none';render();}
-
+ 
 /* ═══════ HELPERS ═══════ */
 function getDriveId(url){
   if(!url)return null;
@@ -1349,7 +1349,7 @@ function formatDate(iso){
 }
 function esc(s){return(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
-
+ 
 /* ═══════ SESSION RESTORE ═══════ */
 (function(){
   try{
